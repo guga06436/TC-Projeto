@@ -1,5 +1,5 @@
 # TC-Projeto
-Simulação de um Autômato Finito Não-determinístico desenvolvido para a disciplina Teoria da Computação no período 2021.1.
+Simulação de um Autômato Finito Não-determinístico desenvolvido para a disciplina Teoria da Computação no período 2021.1
 
 ## Objetivo
 
