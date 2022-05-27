@@ -21,3 +21,18 @@ Alguns exemplos de arquivos seguindo o formato especificado estão disponíveis 
 ## Execução
 
 Na função main será requisitado o nome do arquivo do autômato. Caso o arquivo exista, o programa utiliza a função `read_afn(arq)`, a qual verifica se ele segue o formato proposto acima e retorna um dicionário com as suas características. Após essa etapa, o usuário informa a cadeia que ele almeja utilizar na simulação. Caso a cadeia seja válida ele chama a função `processa_cadeia(afn, cadeia, estado_atual, resultado='')`, essa função realiza o processamento da cadeia de forma recursiva e, ao final, imprime todas as possibilidades.
+
+## Resultado
+
+Utilizando a cadeia 010110 e o autômato representado pelo arquivo `teste_vazia.txt`, foi possível chegar no resultado abaixo. Em que X siginifica rejeição ou crash e V significa que a cadeia nessa ramificação do processamento foi aceita.
+
+```
+ 0  1  0  1  1  0  λ
+q1 q1 q1 q1 q1 q1 q1 X
+q1 q1 q1 q1 q1 q2 q3 X
+q1 q1 q1 q1 q1 q3 X
+q1 q1 q1 q1 q3 q4 q4 V
+q1 q1 q1 q1 q2 X
+q1 q1 q2 q3 q4 q4 q4 V
+q1 q1 q3 X
+```
