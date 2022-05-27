@@ -3,7 +3,7 @@ import sys
 
 # identifica as caracteristicas do afn com base formato de arquivo
 # recebe como parametro um arquivo
-# retorna um dicioanrio que representa um afn
+# retorna um dicionario que representa um afn
 def read_afn(arq):
     alfabeto = []
     estados = []
