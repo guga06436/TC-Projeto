@@ -130,7 +130,7 @@ def processa_cadeia(afn, cadeia, estado_atual, resultado=''):
 # main
 if __name__ == '__main__':
 
-    fname = "testes/teste_vazia.txt"
+    fname = input("Digite o nome do arquivo: ")
 
     try:
         text = open(fname, "r")
